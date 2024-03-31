@@ -367,4 +367,23 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+
+  /* player */
+
+  .play {
+    animation: spin 4s infinite linear;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .elements {
+    text-align: center;
+    padding: 0.5rem;
+}
 }
