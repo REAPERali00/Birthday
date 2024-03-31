@@ -21,9 +21,16 @@ const animationTimeline = () => {
 
   const tl = new TimelineMax();
 
-  tl.to(".container", 0.1, {
-    visibility: "visible",
-  })
+  tl.fromTo(
+    ".audio-element",
+    1,
+    { scale: 1, x: 0, y: 0 },
+    { scale: 0.2, x: "40%", y: "-20%" }
+  )
+    // ... rest of the code
+    .to(".container", 0.1, {
+      visibility: "visible",
+    })
     .staggerFromTo(
       ".baloons img",
       2.5,
@@ -131,5 +138,7 @@ const animationTimeline = () => {
   });
 };
 
-// Run fetch and animation in sequence
-// animationTimeline();
+const start = document.getElementById("start");
+start.addEventListener("click", () => {
+  animationTimeline();
+});

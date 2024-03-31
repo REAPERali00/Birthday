@@ -12,26 +12,25 @@
 </head>
 
 <body>
-  <section>
-    <div id="player" class="player elements">
-      <button id="player-button"><img class="player-image play"
-          src="https://images.vexels.com/media/users/3/158737/isolated/preview/3353b3a06bc810221952cccbbb189b47-record-rarity-vinyl-illustration.png"
-          alt="Vinyl"></button>
-      <audio loop class="audio">
-        <source type="audio/mp3" src="./audio/Dance-of-Spring-Shahrdad-Rohani_5071.mp3">
-      </audio>
-    </div>
-    <div class="elements">
-      <div id="compteur">
-        <span id="position">0:00</span> :
-        <span id="restant">2:59</span>
-      </div>
-      <div id="myBarBuffer"></div>
-      <div id="myBar"></div>
-    </div>
-  </section>
   <div class="container">
-
+    <section class="audio-element" id="start">
+      <div id="player" class="player elements">
+        <button id="player-button"><img class="player-image play"
+            src="https://images.vexels.com/media/users/3/158737/isolated/preview/3353b3a06bc810221952cccbbb189b47-record-rarity-vinyl-illustration.png"
+            alt="Vinyl"></button>
+        <audio loop class="audio">
+          <source type="audio/mp3" src="./audio/Dance-of-Spring-Shahrdad-Rohani_5071.mp3">
+        </audio>
+      </div>
+      <div class="elements">
+        <div id="compteur">
+          <span id="position">0:00</span> :
+          <span id="restant">2:59</span>
+        </div>
+        <div id="myBarBuffer"></div>
+        <div id="myBar"></div>
+      </div>
+    </section>
     <div class="six">
       <img src="img/dad.jpg" alt="" class="lydia-dp" data-node-name="imagePath">
       <img src="img/hat.svg" alt="" class="hat">
