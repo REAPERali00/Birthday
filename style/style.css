@@ -73,11 +73,9 @@ body {
   top: 90px;
   left: 90%;
   /* transform: scale(0.1); */
-  
 }
 
 /* Cake styling  */
-
 
 #cake {
   /* display: block;
@@ -103,11 +101,10 @@ body {
   margin-top: -8.33333333px;
   width: 5px;
   height: 35px;
-  transform: translate(-50%, -100%); 
+  transform: translate(-50%, -100%);
   /* transform: translateY(-300px); */
   backface-visibility: hidden;
   animation: in 500ms 6s ease-out forwards;
-
 }
 .velas:after,
 .velas:before {
@@ -141,8 +138,7 @@ body {
   position: absolute; /* Make sure the fire is positioned relative to the candle */
   top: calc(100% - 20px); /* Adjust this value as needed */
   left: 50%;
-  transform: translate(-50%, -100%); 
-
+  transform: translate(-50%, -100%);
 }
 .fuego:nth-child(1) {
   animation: fuego 2s 6.5s infinite;
@@ -164,7 +160,8 @@ body {
 */
 
 @keyframes fuego {
-  0%, 100% {
+  0%,
+  100% {
     background: rgba(254, 248, 97, 0.5);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     transform: translateY(0) scale(1);
@@ -286,13 +283,10 @@ body {
   padding: 20px;
   width: fit-content;
   margin: auto;
-
 }
-#replay:hover{
-
+#replay:hover {
   background-color: #95569f;
 }
-
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
@@ -343,9 +337,8 @@ body {
 
   .six .hat {
     width: 25px;
-    top: 30px;
+    top: 20px;
     left: 39.5%;
-
   }
 
   .wish-hbd {
