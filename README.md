@@ -1,2 +1,2 @@
 ## Happy Birthday!!!
-### Wish someone special happy birthday in a special way.
+### Wish someone happy birthday in a special way.
