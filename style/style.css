@@ -254,7 +254,11 @@ button {
   .container {
     width: 90%;
   }
-
+  .audio-element {
+    scale: 0.5;
+    position: relative;
+    margin: 0 auto;
+  }
   .four .text-box {
     width: 90%;
   }
